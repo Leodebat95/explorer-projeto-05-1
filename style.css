@@ -1,0 +1,121 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  font-size: 62.5%;
+
+  --bg-color: #FFFFFF;
+  --items-color: #87878e;
+  --clicked-items-color: #323238;
+
+  --clicked-forest-bg-color: #017035;
+  --clicked-rainy-bg-color: #030170;
+  --clicked-coffee-bg-color: #543100;
+  --clicked-fireplace-bg-color: #b02c00;
+
+  --clicked-place-color: #FFFFFF;
+}
+
+
+
+/* --------------- Body ----------------------------- */
+body {
+  background: var(--bg-color);
+  color: var(--clicked-items-color);
+
+}
+
+main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+
+  position: relative;
+  bottom: 4rem;
+}
+
+span {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  font-size: 12.6rem;
+  line-height: 14.8rem;
+}
+
+.hide {
+  display: none;
+}
+
+
+
+/* --------------- Buttons ----------------------------- */
+button {
+  background: transparent;
+  border: none;
+  cursor: pointer;
+
+  transition: all 0.3s ease-in-out;
+}
+
+.play-path, .stop-path, .plus-path, .minus-path {
+  fill: var(--items-color);
+}
+
+button:hover {
+  transform: scale(1.1);
+}
+
+.button-active {
+  fill: var(--clicked-items-color);
+}
+
+.button-place-color-active {
+  fill: var(--clicked-place-color);
+}
+
+.forest-color-active {
+  fill: var(--clicked-forest-bg-color);
+}
+
+.rainy-color-active {
+  fill: var(--clicked-rainy-bg-color);
+}
+
+.coffee-color-active {
+  fill: var(--clicked-coffee-bg-color);
+}
+
+.fireplace-color-active {
+  fill: var(--clicked-fireplace-bg-color);
+}
+
+
+
+/* --------------- Divs ----------------------------- */
+.control-box {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+
+  align-content: center;
+  align-items: center;
+  gap: 2rem;
+  
+  margin-right: 19.2rem;
+}
+
+.controls {
+  display: flex;
+  gap: 4rem;
+}
+
+.place {
+  max-width: 32rem;
+  
+  display: flex;
+  flex-wrap: wrap;
+  gap: 3.2rem;
+}
