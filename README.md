@@ -1,4 +1,4 @@
-# Exercício - HTML / CSS & JS: básicou
+# Exercício - HTML / CSS & JS: básico
 
 Exercício #1 da semana #5, de nome "FocusTimer". Parte do curso "Explorer", da plataforma de ensino [Rocketseat](https://rocketseat.com.br/).
 
