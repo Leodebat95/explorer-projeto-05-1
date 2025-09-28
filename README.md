@@ -4,6 +4,10 @@ Exercício #1 da semana #5, de nome "Focus Timer". Parte do curso "Explorer", da
 
 Este exercício é focado no estudo das linguagens HTML, CSS e JavaScript, introduzindo como elas trabalham juntas.
 
+<br>
+  <img width="406" height="235" alt="Mockup - Desktop" src="https://github.com/user-attachments/assets/9dd4bc08-4ffb-46b7-bfb7-1862904e0331" />
+<br>
+
 # Exercise - HTML / CSS & JS basics
 
 Exercise #1 from Week #5, named "Focus Timer". Part of the program "Explorer", from the online platform [Rocketseat](https://rocketseat.com.br/).
